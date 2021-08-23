@@ -1,10 +1,11 @@
 <template>
   <div>
-    <h1>Show User</h1>
-    <p>id: {{ userId }}</p>
-    <p>ชื่อ - นามสกุล {{ user.name }} - {{ user.lastname }}</p>
-    <p>email: {{ user.email }}</p>
-    <p>password: {{ user.password }}</p>
+    <h1>Show Silver</h1>
+    <p>ID : {{ user.id }}</p>
+    <p>Source : {{ user.source }}</p>
+    <p>Benefit : {{ user.benefit }}</p>
+    <p>Reaction: {{ user.reaction }}</p>
+    <p>type: {{user.type}}</p>
   </div>
 </template>
 <script>
